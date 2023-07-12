@@ -1,0 +1,43 @@
+
+.flex-container {
+    display: flex;
+  }
+
+.content { 
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    margin: 15px;
+ 
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    margin: 15px;
+    padding: 0;
+ 
+}
+
+.task-item{
+  background: linear-gradient(to bottom, #254980, #8642ad);
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+    color: #f8f9fa;
+}
+
+li::marker {
+	color: black;
+}
+
+.task-item .task-text {
+  font-size: 18px;
+  font-weight: bold;
+}
