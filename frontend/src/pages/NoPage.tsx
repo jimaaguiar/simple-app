@@ -1,13 +1,18 @@
 import React from 'react'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
+import './Pages.css'
 
 function NoPage() {
   return (
-    <div>
-        <Header />
+    <div >
+      <Header />
+      <div className="flex-container">
         <Navbar />
-        <h1>Error 404: Not Found </h1>
+        <div className="content">
+          <h2>Page not found</h2>
+        </div>
+      </div>
     </div>
     
   )
