@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import './Pages.css';
@@ -34,9 +34,9 @@ function Tasks() {
           <h2>Task List</h2>
           <ul className="task-list">
           {tasks.map((task: Task) => (
-  <div className="task-item" key={task.id}>
+  <div className="task-item" key={task.id} data-testid="task-item">
     <li>
-      <span className="task-text">{task.text}</span>
+      <span className="task-title">{task.text}</span>
       <br />
       <span>Completed: {task.completed ? 'True' : 'False'}</span>
     </li>

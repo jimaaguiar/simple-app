@@ -9,11 +9,11 @@ function Navbar() {
     <nav className={`navbar navbar-light bg-light ${styles.navbar}`}>
       <ul className={`navbar-nav ${styles.navbarList}`}>
         <li className={`nav-item ${styles.navItem}`}>
-         <HomeRoundedIcon className={styles.icon}/>
+         <HomeRoundedIcon  className={styles.icon} data-testid="home-icon"/>
           <Link className="nav-link" to="/home">Home</Link>
         </li>
         <li className={`nav-item ${styles.navItem}`}>
-          <AssignmentOutlinedIcon className={styles.icon}/>
+          <AssignmentOutlinedIcon className={styles.icon} data-testid="tasks-icon"/>
           <Link className="nav-link" to="/tasks">Tasks</Link>
         </li>
       </ul>

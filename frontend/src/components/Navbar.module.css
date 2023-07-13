@@ -3,9 +3,12 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: auto; /* Adjusted to automatically adjust the height based on content */
-  min-height: 100vh; /* Set a base height for the navbar */
-  width: 180px; /* Set the width of the sidebar */
+  height: auto;
+  /* Adjusted to automatically adjust the height based on content */
+  min-height: 100vh;
+  /* Set a base height for the navbar */
+  width: 180px;
+  /* Set the width of the sidebar */
 
 }
 
@@ -19,7 +22,8 @@
 }
 
 .icon {
-  margin-right: 8px; /* Add space to the right of the icon */
+  margin-right: 8px;
+  /* Add space to the right of the icon */
 }
 
 .navItem:hover {
